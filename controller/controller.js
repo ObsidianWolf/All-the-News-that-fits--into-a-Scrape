@@ -54,7 +54,9 @@ router.get("/scrape", function (req, res) {
 
         });
         res.redirect("/");
-    });
+    }).catch(err => {
+        console.log(err);
+    })
 });
 router.get("/articles", function (req, res) {
     Article.find().sort({ _id: -1 }).exec(function (err, doc) {
