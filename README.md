@@ -1,2 +1,2 @@
-# Latest-News-Scrape
-Lets users view and leave comments on the latest news. Uses Mongoose and Cheerio to scrape news from another site.
+# All-the-News-that-fits--into-a-Scrape
+The site uses cheerio to scrape news and then store the data in mongoDb. Users can save, leave notes, and delete articles based on their preferences.
